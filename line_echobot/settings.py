@@ -24,6 +24,8 @@ try:
     from .settings_secret import *
 except ImportError:
     SECRET_KEY = get_env_variable('SECRET_KEY')
+    LINE_CHANNEL_ACCESS_TOKEN = get_env_variable('LINE_CHANNEL_ACCESS_TOKEN')
+    LINE_CHANNEL_SECRET = get_env_variable('LINE_CHANNEL_SECRET')
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
