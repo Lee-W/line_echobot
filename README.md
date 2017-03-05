@@ -2,6 +2,8 @@
 
 A django implementation of new [Line Message API](https://devdocs.line.me/en/#messaging-api) using [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 
+There is also [sanic](https://github.com/Lee-W/line_echobot/tree/sanic) and [flask](https://github.com/Lee-W/line_echobot/tree/flask) implementation of this project on other branch.
+
 ## Setup
 
 ### Secret Data
