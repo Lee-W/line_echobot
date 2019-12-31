@@ -19,6 +19,6 @@ from django.contrib import admin
 import echobot
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^echobot/', include('echobot.urls')),
+    url(r"^admin/", admin.site.urls),
+    url(r"^echobot/", include("echobot.urls")),
 ]
