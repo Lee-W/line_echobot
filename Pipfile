@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
 
 [packages]
 requests = "==2.20.0"
@@ -13,3 +14,6 @@ Django = "==1.11.27"
 
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
